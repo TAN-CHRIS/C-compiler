@@ -1,0 +1,18 @@
+int a;
+int b[123];
+char c;
+
+int gcd(int a, int b) {
+    if(b == 0) {
+        return a;
+    } else {
+        return gcd(b, a%b);
+    }  
+
+}
+
+int main() {
+    int a = 5555;
+    int b = 3333;
+    int c = gcd(a, b);
+}

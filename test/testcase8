@@ -1,0 +1,14 @@
+int acc(int arr[], int start, int end) {
+    int sum = 0;
+    int i=0;
+    for(i = start; i<end; i++) {
+        sum = sum + arr[i];
+    }
+    return sum;
+}
+
+int main() {
+    int a[10] = {1, 1, 1, 1, 1, 5, 5, 5, 5, 5};
+    int check = acc(a, 5, 7);
+    return 0;
+}

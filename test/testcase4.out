@@ -1,0 +1,1 @@
+( ( const int a = 55555 ; ) ( int main ( ) { ( const int b = ( a + 123 ) ; ) ( return 0 ; ) } ) )
